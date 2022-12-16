@@ -9,6 +9,10 @@ import Contact from './Contact'
 //import Scroll from "./Scroll";
 function Home() {
   const { account } = useContext(DataContext);
+
+
+  const data =new FormData();
+  console.log(data, " Form Data")
   return (
     < >
    
